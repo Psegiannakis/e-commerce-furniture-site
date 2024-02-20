@@ -10,6 +10,7 @@
   display: inline-flex;
   height: 10vh;
   width: 100%;
+  margin-top: 5vh;
 }
 
 .header-img {
@@ -17,8 +18,34 @@
   margin-left: 2rem;
 }
 
+/*testing search button*/
+.search-container {
+  display: flex;
+  align-items: center;
+  height: 5vh;
+  width: 100%;
+  margin-top: 0.5em;
+  margin-left: 30px;
+  border-radius: 20px;
+  overflow: hidden;
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.6);
+}
+
+.search-input {
+  flex: 1;
+  height: 40px;
+  border: none;
+  text-indent: 60px;
+  font-weight: 300;
+  font-size: 18px;
+  outline: none;
+}
+
+/*testing search button*/
+
 .header-title {
-  margin-left: 75%;
+  margin-left: 10%;
 }
 
 .btn {
@@ -26,7 +53,7 @@
   height: 2.3em;
   margin: 0.5em;
   background: white;
-  color: black;
+  color: rgb(60, 60, 60);
   border: none;
   border-radius: 0.625em;
   font-size: 1.2rem;
@@ -43,7 +70,7 @@ button:hover {
 
 button:after {
   content: "";
-  background: black;
+  background: rgba(0, 0, 0, 0.572);
   position: absolute;
   z-index: -1;
   left: -10%;
