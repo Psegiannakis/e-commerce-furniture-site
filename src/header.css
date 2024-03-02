@@ -18,31 +18,28 @@
   margin-left: 2rem;
 }
 
-/*testing search button*/
 .search-container {
   display: flex;
   align-items: center;
   height: 5vh;
   width: 100%;
   margin-top: 0.5em;
-  margin-left: 30px;
-  border-radius: 20px;
+  margin-left: 5rem;
+  border-radius: 1.25rem;
   overflow: hidden;
   background-color: #fff;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.6);
+  box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.6);
 }
 
 .search-input {
   flex: 1;
-  height: 40px;
+  height: 2.5rem;
   border: none;
-  text-indent: 60px;
+  text-indent: 3.75rem;
   font-weight: 300;
-  font-size: 18px;
+  font-size: 1.125rem;
   outline: none;
 }
-
-/*testing search button*/
 
 .header-title {
   margin-left: 10%;
