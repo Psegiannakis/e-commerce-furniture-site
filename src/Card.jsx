@@ -1,7 +1,7 @@
 import Carousel from "./carousel";
 import "./card.css";
 
-export default function App() {
+export default function Card() {
   return (
     <div className="cards-list">
       <Carousel img="./couch.png" title="Couches" />

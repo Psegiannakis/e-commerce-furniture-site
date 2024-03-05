@@ -1,0 +1,55 @@
+* {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: normal;
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
+}
+
+.hero-title {
+  margin: 2rem 4rem;
+  margin-top: 10rem;
+}
+
+h1 {
+  font-weight: 450;
+}
+
+.hero-main-box {
+  margin: 2rem 4rem;
+}
+
+.hero-photos {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  gap: 1.2rem;
+  width: 100%;
+}
+
+.hero-box {
+  background-color: #34435e;
+  width: 20rem;
+  color: white;
+  font-size: 1.7rem;
+  font-weight: 300;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero-box2 {
+  background-color: #90bdb7ff;
+  width: 20rem;
+  color: white;
+  font-size: 1.7rem;
+  font-weight: 300;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.photo {
+  width: 100%;
+  height: 100%;
+}
