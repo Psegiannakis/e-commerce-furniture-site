@@ -64,28 +64,10 @@ h1 {
   border-radius: 3%;
 }
 
-@keyframes bounce {
-  0%,
-  10%,
-  20%,
-  50%,
-  80%,
-  100% {
-    transform: translateY(0);
-  }
-  40% {
-    transform: translateY(-0.5rem);
-  }
-  60% {
-    transform: translateY(-0.2rem);
-  }
-}
-
 .hero-card:hover .card-badge {
   background-color: rgba(255, 255, 255, 0.879);
   box-shadow: 0rem 0rem 0.3rem 0.3rem #3d315b;
   font-size: large;
-  animation: bounce 2s ease 0s;
 }
 
 .hero-card {
