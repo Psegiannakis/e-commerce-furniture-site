@@ -22,28 +22,43 @@ export default function Hero() {
       </div>
       <div className="hero-main-box">
         <div className="hero-photos">
-          <div className="hero-box photo">Shop new offers</div>
-          <img
-            className="modern photo"
-            src="./modern.png"
-            alt="modern living room photo"
-          />
-          <img
-            className="kids-room photo"
-            src="./kids.png"
-            alt="kids room photo"
-          />
-          <img
-            className="outdoor photo"
-            src="./outdoor-area.png"
-            alt="outdoor area photo"
-          />
-          <img
-            className="kitcken photo"
-            src="./kitchen.png"
-            alt="kitcken photo"
-          />
-          <div className="hero-box2 photo">A selection of our favourites</div>
+          <div className="hero-box photo hero-card">Shop new offers</div>
+          <div className="hero-card">
+            <div className="card-badge">Modern living</div>
+            <img
+              className="modern photo"
+              src="./modern.png"
+              alt="modern living room photo"
+            />
+          </div>
+          <div className="hero-card">
+            <div className="card-badge">Kids rooms</div>
+            <img
+              className="kids-room photo"
+              src="./kids.png"
+              alt="kids room photo"
+            />
+          </div>
+          <div className="hero-card">
+            <div className="card-badge">Outdoor dining</div>
+            <img
+              className="outdoor photo"
+              src="./outdoor-area.png"
+              alt="outdoor area photo"
+            />
+          </div>
+          <div className="hero-card">
+            <div className="card-badge">Indoor dining</div>
+            <img
+              className="kitcken photo"
+              src="./kitchen.png"
+              alt="kitcken photo"
+            />
+          </div>
+
+          <div className="hero-box2 photo hero-card">
+            A selection of our favourites
+          </div>
         </div>
       </div>
     </>
