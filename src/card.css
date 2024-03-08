@@ -37,3 +37,12 @@
   font-style: normal;
   font-variation-settings: "wdth" 100;
 }
+
+.card:hover .card-title {
+  color: #987284;
+  font-weight: 550;
+}
+
+.card:hover {
+  cursor: pointer;
+}

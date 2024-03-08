@@ -8,7 +8,7 @@
 
 .hero-title {
   margin: 2rem 4rem;
-  margin-top: 10rem;
+  margin-top: 8rem;
 }
 
 h1 {
@@ -65,8 +65,8 @@ h1 {
 }
 
 .hero-card:hover .card-badge {
-  background-color: rgba(255, 255, 255, 0.879);
-  box-shadow: 0rem 0rem 0.3rem 0.3rem #3d315b;
+  background-color: #987284d0;
+  color: white;
   font-size: large;
 }
 
