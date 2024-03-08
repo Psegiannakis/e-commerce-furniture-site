@@ -1,0 +1,16 @@
+* {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: normal;
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
+}
+
+.hero-3 {
+  margin: 2rem 4rem;
+  margin-top: 8rem;
+}
+
+.hero-3-title {
+  margin-bottom: 2rem;
+}
