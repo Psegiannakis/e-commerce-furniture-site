@@ -57,17 +57,18 @@ h1 {
 .card-badge {
   position: absolute;
   margin: 0.5rem 0.5rem;
-  font-size: larger;
-  background-color: white;
+  font-size: 1rem;
+  font-weight: light;
+  background-color: rgb(255, 255, 255);
   color: black;
-  padding: 5px 7px;
-  border-radius: 3%;
+  padding: 0.5rem 1rem;
+  border-radius: 1rem;
+  border: 0.05rem solid rgba(0, 0, 0, 0.462);
 }
 
 .hero-card:hover .card-badge {
-  background-color: #987284d0;
-  color: white;
-  font-size: large;
+  background-color: white;
+  border: 0.1rem solid rgba(0, 0, 0, 0.864);
 }
 
 .hero-card {
@@ -76,8 +77,10 @@ h1 {
 
 .hero-box:hover {
   color: #987284;
+  text-decoration: underline;
 }
 
 .hero-box2:hover {
   color: #987284;
+  text-decoration: underline;
 }

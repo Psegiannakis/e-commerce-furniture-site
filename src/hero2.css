@@ -34,6 +34,7 @@
 .video-box:hover {
   color: #987284;
   cursor: pointer;
+  text-decoration: underline;
 }
 
 .arrow {

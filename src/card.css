@@ -12,7 +12,7 @@
 .card {
   width: 11rem;
   height: 30vh;
-  font-size: 1.25rem;
+  font-size: 1.2rem;
   flex: 0 0 auto;
   display: flex;
   flex-direction: column;
@@ -40,7 +40,8 @@
 
 .card:hover .card-title {
   color: #987284;
-  font-weight: 550;
+  font-size: 1.25rem;
+  text-decoration: underline;
 }
 
 .card:hover {
