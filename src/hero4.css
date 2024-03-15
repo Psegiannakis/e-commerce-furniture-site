@@ -1,0 +1,50 @@
+* {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: normal;
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
+}
+
+.hero-4 {
+  margin: 2rem 4rem;
+  margin-top: 8rem;
+}
+
+.hero-4-title {
+  margin-bottom: 2rem;
+}
+
+.hero-4-photos {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 1.2rem;
+  height: 50vh;
+  width: 100%;
+}
+
+.image1 {
+  width: 100%;
+}
+
+.hero-badge {
+  position: absolute;
+  color: white;
+  background-color: #987284;
+  width: fit-content;
+  padding: 0.4rem 0.4rem;
+}
+
+.hero-4-card {
+  cursor: pointer;
+}
+
+.cards-title {
+  font-weight: bold;
+}
+
+.cards-text {
+  font-size: 1rem;
+  color: rgba(0, 0, 0, 0.658);
+  line-height: 0.02rem;
+}
