@@ -1,0 +1,14 @@
+* {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: normal;
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
+  color: black;
+}
+
+.footer {
+  padding-top: 10rem;
+  background-color: rgba(245, 245, 245);
+  width: 100%;
+}

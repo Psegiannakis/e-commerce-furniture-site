@@ -19,6 +19,11 @@ h1 {
   margin: 2rem 4rem;
 }
 
+.hero-card {
+  cursor: pointer;
+  position: relative;
+}
+
 .hero-photos {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
@@ -56,10 +61,15 @@ h1 {
 
 .card-badge {
   position: absolute;
+  bottom: 10%;
+  left: 30%;
+  right: 30%;
+  text-align: center;
+  width: inherit;
   margin: 0.5rem 0.5rem;
   font-size: 1rem;
   font-weight: light;
-  background-color: rgb(255, 255, 255);
+  background-color: rgba(255, 255, 255, 0.839);
   color: black;
   padding: 0.5rem 1rem;
   border-radius: 1rem;
@@ -67,12 +77,8 @@ h1 {
 }
 
 .hero-card:hover .card-badge {
-  background-color: white;
+  background-color: rgba(255, 255, 255, 0.946);
   border: 0.1rem solid rgba(0, 0, 0, 0.864);
-}
-
-.hero-card {
-  cursor: pointer;
 }
 
 .hero-box:hover {

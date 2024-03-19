@@ -31,7 +31,8 @@
   align-items: center;
 }
 
-.video-box:hover {
+.video-box:hover,
+.arrow:hover {
   color: #987284;
   cursor: pointer;
   text-decoration: underline;

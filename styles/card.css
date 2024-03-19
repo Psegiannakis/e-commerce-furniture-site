@@ -9,7 +9,8 @@
   scrollbar-width: thin;
 }
 
-.card {
+.cards {
+  padding-top: 1rem;
   width: 11rem;
   height: 30vh;
   font-size: 1.2rem;
@@ -19,15 +20,15 @@
   margin-bottom: 0;
 }
 
-.card-image {
+.cards-image {
   width: 100%;
   height: 50%;
   object-fit: cover;
   border-radius: 0.5rem;
-  margin-bottom: 0.5rem;
+  margin-bottom: 3rem;
 }
 
-.card-title {
+.cards-title {
   overflow: hidden;
   text-overflow: ellipsis;
   text-align: center;
@@ -38,12 +39,12 @@
   font-variation-settings: "wdth" 100;
 }
 
-.card:hover .card-title {
+.cards:hover .cards-title {
   color: #987284;
   font-size: 1.25rem;
   text-decoration: underline;
 }
 
-.card:hover {
+.cards:hover {
   cursor: pointer;
 }

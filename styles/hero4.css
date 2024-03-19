@@ -39,12 +39,31 @@
   cursor: pointer;
 }
 
-.cards-title {
+.hero-cards-title {
   font-weight: bold;
 }
 
-.cards-text {
+.hero-cards-text {
   font-size: 1rem;
   color: rgba(0, 0, 0, 0.658);
   line-height: 0.02rem;
+}
+
+.hero-cards-price {
+  font-size: larger;
+  padding-top: 0.6rem;
+}
+
+.bi {
+  padding: 0.5rem 0.5rem;
+  border-radius: 50%;
+}
+
+.bag {
+  background-color: #9872842c;
+}
+
+.bi:hover {
+  color: #987284;
+  background-color: rgba(1, 1, 1, 0.112);
 }

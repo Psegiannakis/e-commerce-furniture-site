@@ -1,5 +1,5 @@
 import Carousel from "./carousel";
-import "./card.css";
+import "../styles/card.css";
 
 export default function Card() {
   return (
