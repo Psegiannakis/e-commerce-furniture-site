@@ -12,15 +12,17 @@ export default function Header() {
           placeholder="Find what you are looking for."
         ></input>
       </div>
-      <div className="header-title">
-        <button className="button">
-          About <i class="bi1 bi-question-circle-fill"></i>
-        </button>
-      </div>
-      <div className="header-title-2">
-        <button className="button">
-          Cart <i class="bi1 bi-bag-fill"></i>
-        </button>
+      <div className="header-buttons">
+        <div className="header-title">
+          <button className="button">
+            About <i class="bi1 bi-question-circle-fill"></i>
+          </button>
+        </div>
+        <div className="header-title-2">
+          <button className="button">
+            Cart <i class="bi1 bi-bag-fill"></i>
+          </button>
+        </div>
       </div>
     </div>
   );

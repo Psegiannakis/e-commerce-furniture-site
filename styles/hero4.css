@@ -51,7 +51,13 @@
 
 .hero-cards-price {
   font-size: larger;
-  padding-top: 0.6rem;
+  padding: 0.6rem 0.6rem;
+  display: inline-flex;
+}
+
+.hero-cards-price span {
+  padding: 0.5rem 0rem;
+  padding-right: 0.5rem;
 }
 
 .bi {
@@ -66,4 +72,39 @@
 .bi:hover {
   color: #987284;
   background-color: rgba(1, 1, 1, 0.112);
+}
+
+.popup {
+  position: fixed;
+  top: 2%;
+  right: 2%;
+  background-color: #987284;
+  color: white;
+  padding: 0.1rem 0.7rem;
+  animation: fade-in linear 1s forwards;
+  z-index: 1;
+}
+
+.bi-x-circle {
+  padding-left: 0.5rem;
+  color: black;
+}
+
+@keyframes fade-in {
+  0% {
+    transform: translateX(150%);
+    opacity: 0;
+  }
+  33% {
+    transform: translateX(100%);
+  }
+
+  66% {
+    transform: translateX(0%);
+    opacity: 1;
+  }
+
+  100% {
+    opacity: 0;
+  }
 }

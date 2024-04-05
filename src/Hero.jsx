@@ -24,7 +24,7 @@ export default function Hero() {
         <div className="hero-photos">
           <div className="hero-box photo hero-card">Shop new offers</div>
           <div className="hero-card">
-            <div className="card-badge">Modern living</div>
+            <button className="card-badge">Modern living</button>
             <img
               className="modern photo"
               src="./modern.png"
@@ -32,7 +32,7 @@ export default function Hero() {
             />
           </div>
           <div className="hero-card">
-            <div className="card-badge">Kids rooms</div>
+            <button className="card-badge">Kids rooms</button>
             <img
               className="kids-room photo"
               src="./kids.png"
@@ -40,7 +40,7 @@ export default function Hero() {
             />
           </div>
           <div className="hero-card">
-            <div className="card-badge">Outdoor dining</div>
+            <button className="card-badge">Outdoor dining</button>
             <img
               className="outdoor photo"
               src="./outdoor-area.png"
@@ -48,7 +48,7 @@ export default function Hero() {
             />
           </div>
           <div className="hero-card">
-            <div className="card-badge">Indoor dining</div>
+            <button className="card-badge">Indoor dining</button>
             <img
               className="kitcken photo"
               src="./kitchen.png"

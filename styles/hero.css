@@ -22,6 +22,7 @@ h1 {
 .hero-card {
   cursor: pointer;
   position: relative;
+  transition: ease-in-out 0.3s;
 }
 
 .hero-photos {
@@ -41,6 +42,7 @@ h1 {
   display: flex;
   justify-content: center;
   align-items: center;
+  transition: ease-in-out 0.3s;
 }
 
 .hero-box2 {
@@ -52,6 +54,7 @@ h1 {
   display: flex;
   justify-content: center;
   align-items: center;
+  transition: ease-in-out 0.3s;
 }
 
 .photo {
@@ -84,9 +87,11 @@ h1 {
 .hero-box:hover {
   color: #987284;
   text-decoration: underline;
+  transition: ease-in-out 0.3s;
 }
 
 .hero-box2:hover {
   color: #987284;
   text-decoration: underline;
+  transition: ease-in-out 0.3s;
 }

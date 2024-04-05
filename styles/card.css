@@ -37,12 +37,14 @@
   font-weight: lighter;
   font-style: normal;
   font-variation-settings: "wdth" 100;
+  transition: ease-in-out 0.3s;
 }
 
 .cards:hover .cards-title {
   color: #987284;
   font-size: 1.25rem;
   text-decoration: underline;
+  transition: ease-in-out 0.1s;
 }
 
 .cards:hover {

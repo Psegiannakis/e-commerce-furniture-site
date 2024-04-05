@@ -29,6 +29,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  transition: ease-in-out 0.3s;
 }
 
 .video-box:hover,
@@ -36,6 +37,7 @@
   color: #987284;
   cursor: pointer;
   text-decoration: underline;
+  transition: ease-in-out 0.3s;
 }
 
 .arrow {

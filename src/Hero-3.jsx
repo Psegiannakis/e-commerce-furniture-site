@@ -10,7 +10,7 @@ export default function Hero3() {
         </div>
         <div className="hero-3-photos">
           <div className="hero-3-card">
-            <div className="card1-badge">Couches</div>
+            <button className="card1-badge">Couches</button>
             <img
               className="image 1"
               src="./couch2.png"
@@ -18,7 +18,7 @@ export default function Hero3() {
             />
           </div>
           <div className="hero-3-card">
-            <div className="card1-badge">Cabinets & Storage</div>
+            <button className="card1-badge">Cabinets & Storage</button>
             <img
               className="image 2"
               src="./storage.png"
@@ -26,11 +26,11 @@ export default function Hero3() {
             />
           </div>
           <div className="hero-3-card">
-            <div className="card1-badge">Large Rugs</div>
+            <button className="card1-badge">Large Rugs</button>
             <img className="image 3" src="./rug2.png" alt="photo of rug" />
           </div>
           <div className="hero-3-card">
-            <div className="card1-badge">Mirrors</div>
+            <button className="card1-badge">Mirrors</button>
             <img className="image 4" src="./mirror.png" alt="photo of mirror" />
           </div>
         </div>
