@@ -1,24 +1,11 @@
 import "../styles/hero4.css";
 import { useState } from "react";
-import { ToastContainer, toast } from "react-toastify";
-import "react-toastify/dist/ReactToastify.css";
 
 export default function Hero4() {
   const [hovered1, setHovered1] = useState(false);
   const [hovered2, setHovered2] = useState(false);
   const [hovered3, setHovered3] = useState(false);
   const [hovered4, setHovered4] = useState(false);
-
-  const customId = "custom-id-yes";
-
-  const notify = () =>
-    toast("Added to cart!", {
-      toastId: customId,
-    });
-  const fav = () =>
-    toast("Added to favourites!", {
-      toastId: customId,
-    });
 
   return (
     <>
@@ -42,33 +29,9 @@ export default function Hero4() {
 
             <h4 className="hero-cards-price">
               <span>$149</span>
-              <i className="bi bag bi-bag-fill" onClick={notify}></i>
-              <ToastContainer
-                position="top-right"
-                autoClose={2000}
-                hideProgressBar
-                newestOnTop={false}
-                closeOnClick
-                rtl={false}
-                pauseOnFocusLoss
-                draggable={false}
-                pauseOnHover={false}
-                limit={1}
-                theme="light"
-              />
-              <i class="bi bi-heart" onClick={fav}></i>
-              <ToastContainer
-                position="top-right"
-                autoClose={2000}
-                hideProgressBar
-                newestOnTop={false}
-                closeOnClick
-                rtl={false}
-                pauseOnFocusLoss
-                draggable={false}
-                pauseOnHover={false}
-                theme="light"
-              />
+              <i className="bi bag bi-bag-fill"></i>
+
+              <i class="bi bi-heart"></i>
             </h4>
           </div>
           <div className="hero-4-card">
@@ -83,33 +46,8 @@ export default function Hero4() {
             <p className="hero-cards-title">ARGOST DESK</p>
             <p className="hero-cards-text">Black 160 x 50cm</p>
             <h4 className="hero-cards-price">
-              <span>$279</span>{" "}
-              <i className="bi bag bi-bag-fill" onClick={notify}></i>
-              <ToastContainer
-                position="top-right"
-                autoClose={2000}
-                hideProgressBar
-                newestOnTop={false}
-                closeOnClick
-                rtl={false}
-                pauseOnFocusLoss
-                draggable={false}
-                pauseOnHover={false}
-                theme="light"
-              />
-              <i class="bi bi-heart" onClick={fav}></i>
-              <ToastContainer
-                position="top-right"
-                autoClose={2000}
-                hideProgressBar
-                newestOnTop={false}
-                closeOnClick
-                rtl={false}
-                pauseOnFocusLoss
-                draggable={false}
-                pauseOnHover={false}
-                theme="light"
-              />
+              <span>$279</span> <i className="bi bag bi-bag-fill"></i>
+              <i class="bi bi-heart"></i>
             </h4>
           </div>
           <div className="hero-4-card">
@@ -128,33 +66,8 @@ export default function Hero4() {
             <p className="hero-cards-title"> JALN CABINET</p>
             <p className="hero-cards-text">Green 78 x 160cm</p>
             <h4 className="hero-cards-price">
-              <span>$349</span>{" "}
-              <i className="bi bag bi-bag-fill" onClick={notify}></i>
-              <ToastContainer
-                position="top-right"
-                autoClose={2000}
-                hideProgressBar
-                newestOnTop={false}
-                closeOnClick
-                rtl={false}
-                pauseOnFocusLoss
-                draggable={false}
-                pauseOnHover={false}
-                theme="light"
-              />
-              <i class="bi bi-heart" onClick={fav}></i>
-              <ToastContainer
-                position="top-right"
-                autoClose={2000}
-                hideProgressBar
-                newestOnTop={false}
-                closeOnClick
-                rtl={false}
-                pauseOnFocusLoss
-                draggable={false}
-                pauseOnHover={false}
-                theme="light"
-              />
+              <span>$349</span> <i className="bi bag bi-bag-fill"></i>
+              <i class="bi bi-heart"></i>
             </h4>
           </div>
           <div className="hero-4-card">
@@ -169,33 +82,8 @@ export default function Hero4() {
             <p className="hero-cards-title">HORV MIRROR LAMP</p>
             <p className="hero-cards-text">Green 65 x 65cm</p>
             <h4 className="hero-cards-price">
-              <span>$159</span>{" "}
-              <i className="bi bag bi-bag-fill" onClick={notify}></i>
-              <ToastContainer
-                position="top-right"
-                autoClose={2000}
-                hideProgressBar
-                newestOnTop={false}
-                closeOnClick
-                rtl={false}
-                pauseOnFocusLoss
-                draggable={false}
-                pauseOnHover={false}
-                theme="light"
-              />
-              <i class="bi bi-heart" onClick={fav}></i>
-              <ToastContainer
-                position="top-right"
-                autoClose={2000}
-                hideProgressBar
-                newestOnTop={false}
-                closeOnClick
-                rtl={false}
-                pauseOnFocusLoss
-                draggable={false}
-                pauseOnHover={false}
-                theme="light"
-              />
+              <span>$159</span> <i className="bi bag bi-bag-fill"></i>
+              <i class="bi bi-heart"></i>
             </h4>
           </div>
         </div>
