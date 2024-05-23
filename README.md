@@ -1,5 +1,5 @@
 <h1>Furniture Plus</h1>
-<h2>An e-commerce landing page built using react.</h2>
+<h2>An e-commerce landing page developed using React.</h2>
 <h3>To Run:</h3>
 <ul>
   <li>npm run dev</li>
